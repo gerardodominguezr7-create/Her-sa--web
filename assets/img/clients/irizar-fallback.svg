@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-label="IRIZAR">
+  <rect width="640" height="180" fill="white"/>
+  <g fill="#113b72">
+    <circle cx="92" cy="90" r="52" fill="none" stroke="#113b72" stroke-width="13"/>
+    <path d="M55 115 C76 76, 94 54, 125 42" fill="none" stroke="#113b72" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="85" cy="65" r="13"/>
+    <text x="165" y="112" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="700" letter-spacing="2">IRIZAR</text>
+  </g>
+</svg>

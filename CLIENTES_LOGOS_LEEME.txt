@@ -1,0 +1,20 @@
+SECCIÓN DE CLIENTES – 8 LOGOS
+
+Esta versión muestra 8 clientes:
+1. Diana Pet Food
+2. DMG MORI
+3. Eaton
+4. Irizar
+5. Flex-N-Gate
+6. VEM Tooling
+7. Magna
+8. RONAL GROUP
+
+Los 7 logos entregados por el cliente están guardados localmente en:
+assets/img/clients/
+
+IRIZAR se carga desde un archivo SVG público de Wikimedia Commons para conservar buena calidad.
+Además se incluye un archivo local de respaldo:
+assets/img/clients/irizar-fallback.svg
+
+Si después se obtiene el archivo oficial de IRIZAR, se puede guardar localmente y cambiar la ruta del <img> sin tocar el diseño.

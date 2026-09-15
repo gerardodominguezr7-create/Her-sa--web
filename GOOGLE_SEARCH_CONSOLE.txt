@@ -1,0 +1,24 @@
+HER-SA · CONFIGURACIÓN GOOGLE SEARCH CONSOLE
+Dominio: her-sa.net
+
+1) VERIFICACIÓN DNS (propiedad de dominio)
+Tipo: TXT
+Host/Nombre: @  (o dejar vacío, según el proveedor DNS)
+Valor:
+google-site-verification=7whkEo4oYUMbjpZ0ZcMpdlk0VA9Gq8J4707OR7M_BT0
+TTL: Automático / predeterminado
+
+No elimines este TXT después de verificar.
+
+2) ARCHIVOS SEO INCLUIDOS
+- index.html con meta de verificación, canonical, Open Graph y datos estructurados.
+- robots.txt con referencia al sitemap.
+- sitemap.xml apuntando a https://her-sa.net/
+
+3) DESPUÉS DE PUBLICAR
+- Verifica en el navegador: https://her-sa.net/
+- Verifica: https://her-sa.net/robots.txt
+- Verifica: https://her-sa.net/sitemap.xml
+- En Search Console pulsa VERIFICAR.
+- Después abre Sitemaps y envía: sitemap.xml
+- En Inspección de URLs inspecciona https://her-sa.net/ y solicita indexación.
