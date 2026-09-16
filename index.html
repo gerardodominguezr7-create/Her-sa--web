@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HER-SA Servicios Industriales. Obra civil, mantenimiento preventivo y correctivo, acabados y comercialización de productos en Querétaro y alrededores." />
+  <meta name="google-site-verification" content="7whkEo4oYUMbjpZ0ZcMpdlk0VA9Gq8J4707OR7M_BT0" />
+  <link rel="canonical" href="https://her-sa.net/" />
+  <title>HER-SA Servicios Industriales | Querétaro</title>
+  <meta name="theme-color" content="#66b82e" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <meta property="og:title" content="HER-SA Servicios Industriales | Querétaro" />
+  <meta property="og:description" content="Obra civil, mantenimiento preventivo y correctivo, acabados y comercialización de productos en Querétaro y alrededores." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://her-sa.net/" />
+  <meta property="og:image" content="https://her-sa.net/assets/img/hero-maintenance.jpg" />
+  <meta property="og:locale" content="es_MX" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "HER-SA Servicios Industriales",
+    "legalName": "COMAPRO SERVIND",
+    "url": "https://her-sa.net/",
+    "logo": "https://her-sa.net/assets/img/logo-her-sa.png",
+    "image": "https://her-sa.net/assets/img/hero-maintenance.jpg",
+    "telephone": "+52 442 222 8861",
+    "email": "proyectos@her-sa.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Tintoretto 219, Col. Campestre Italiana",
+      "addressLocality": "Querétaro",
+      "addressRegion": "Querétaro",
+      "addressCountry": "MX"
+    },
+    "areaServed": "Querétaro y alrededores",
+    "openingHours": "Mo-Fr 08:00-17:00",
+    "description": "Servicios industriales de obra civil, mantenimiento preventivo y correctivo, acabados y comercialización de productos en Querétaro y alrededores."
+  }
+  </script>
+  <style>
+    :root{
+      --bg:#f7f9f6; --surface:#ffffff; --surface-2:#eef2ec; --text:#18211c; --muted:#68736b;
+      --line:#dfe6df; --green:#66b82e; --green-2:#4d9721; --dark:#111814; --shadow:0 20px 60px rgba(18,35,23,.12);
+      --radius:22px; --max:1220px;
+    }
+    body.dark{
+      --bg:#0d1210; --surface:#141b17; --surface-2:#1a231e; --text:#f3f7f3; --muted:#aab5ad;
+      --line:#29332c; --dark:#050806; --shadow:0 24px 70px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.5;transition:.25s ease}
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    button,input,select,textarea{font:inherit}
+    .container{width:min(var(--max),calc(100% - 36px));margin:auto}
+    .topbar{background:var(--dark);color:#d9e1da;font-size:13px}
+    .topbar .container{display:flex;justify-content:space-between;gap:18px;padding:9px 0;flex-wrap:wrap}
+    .header{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand img{width:180px;height:66px;object-fit:contain;object-position:left center}
+    .links{display:flex;align-items:center;gap:26px;font-size:14px;font-weight:700}
+    .links a:hover{color:var(--green)}
+    .nav-actions{display:flex;gap:10px;align-items:center}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;border-radius:999px;padding:13px 20px;font-weight:800;cursor:pointer;transition:.2s;white-space:nowrap}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-green{background:var(--green);color:white;box-shadow:0 10px 24px rgba(102,184,46,.25)}
+    .btn-dark{background:var(--dark);color:white}
+    .btn-outline{background:transparent;color:var(--text);border:1px solid var(--line)}
+    .theme{width:44px;height:44px;padding:0;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer}
+    .mobile-menu{display:none;align-items:center;justify-content:center;padding:0!important;font-size:0!important;line-height:1!important;text-align:center!important}
+    .hamburger{width:22px;height:16px;display:flex;flex-direction:column;justify-content:space-between;align-items:center}
+    .hamburger i{display:block;width:22px;height:2px;background:var(--text);border-radius:10px}
+    .mobile-nav{display:none;position:fixed;left:18px;right:18px;top:94px;z-index:45;background:var(--surface);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:12px}
+    .mobile-nav.open{display:grid}
+    .mobile-nav a,.mobile-nav button{display:flex;width:100%;align-items:center;justify-content:space-between;padding:14px 16px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--text);font-weight:800;text-align:left;cursor:pointer}
+    .mobile-nav a:last-of-type{border-bottom:0}
+    .mobile-nav .mobile-quote{margin-top:8px;border-radius:14px;background:var(--green);color:#fff;border:0;justify-content:center}
+
+    .hero{position:relative;min-height:710px;display:grid;place-items:center;overflow:hidden;background:#101713}
+    .hero-bg{position:absolute;inset:0;background:url('assets/img/hero-maintenance.jpg') center 53%/cover no-repeat;filter:saturate(.82)}
+    .hero-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,14,10,.94) 0%,rgba(8,14,10,.77) 44%,rgba(8,14,10,.16) 78%,rgba(8,14,10,.28) 100%)}
+    .hero .container{position:relative;z-index:2;padding:92px 0 78px}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:900;color:var(--green)}
+    .eyebrow:before{content:"";width:35px;height:3px;background:var(--green);border-radius:9px}
+    .hero h1{font-size:clamp(48px,6vw,84px);line-height:.96;letter-spacing:-.045em;margin:22px 0 22px;color:white;max-width:860px}
+    .hero h1 span{color:var(--green)}
+    .hero p{font-size:19px;color:#dde5df;max-width:700px;margin:0 0 32px}
+    .hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+    .hero .btn-outline{border-color:rgba(255,255,255,.45);color:white;background:rgba(255,255,255,.04)}
+    .hero-facts{margin-top:60px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:910px;border-top:1px solid rgba(255,255,255,.22);padding-top:24px}
+    .fact{padding-right:24px;color:white}
+    .fact strong{display:block;font-size:21px}.fact span{font-size:13px;color:#bac5bd}
+
+    section{padding:95px 0}
+    .section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:40px}
+    .section-head h2{font-size:clamp(34px,4vw,54px);letter-spacing:-.035em;line-height:1.02;margin:8px 0 0;max-width:760px}
+    .section-head p{max-width:480px;color:var(--muted);margin:0}
+    .services{background:var(--bg)}
+    .service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .service-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:0 10px 30px rgba(28,45,33,.04);transition:.25s}
+    .service-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+    .service-img{height:210px;position:relative;overflow:hidden;background:var(--surface-2)}
+    .service-img img{width:100%;height:100%;object-fit:cover;transition:.35s}.service-card:hover img{transform:scale(1.035)}
+    .service-num{position:absolute;left:16px;bottom:14px;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:white;font-weight:900;border:4px solid rgba(255,255,255,.8)}
+    .service-copy{padding:22px}
+    .service-copy h3{font-size:21px;margin:0 0 10px;line-height:1.15}
+    .service-copy p{font-size:14px;color:var(--muted);margin:0 0 15px}
+    .service-copy ul{padding-left:18px;color:var(--muted);font-size:13px;margin:0}
+    .service-copy li+li{margin-top:6px}
+
+    .split{display:grid;grid-template-columns:1.05fr .95fr;gap:58px;align-items:center}
+    .about-media{position:relative;min-height:600px}
+    .about-media .main{width:82%;height:540px;object-fit:cover;border-radius:28px;box-shadow:var(--shadow)}
+    .about-media .float{position:absolute;right:0;bottom:0;width:48%;height:260px;object-fit:cover;border:10px solid var(--bg);border-radius:24px}
+    .about-copy h2{font-size:clamp(38px,4vw,58px);line-height:1.02;letter-spacing:-.04em;margin:14px 0 22px}
+    .about-copy p{color:var(--muted);font-size:17px}
+    .value-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:30px 0}
+    .value{border:1px solid var(--line);background:var(--surface);padding:18px;border-radius:16px}.value strong{display:block}.value span{font-size:13px;color:var(--muted)}
+
+    .projects{background:var(--dark);color:white}
+    .projects .section-head p{color:#aab6ae}
+    .projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .project{position:relative;height:460px;overflow:hidden;border-radius:24px;background:#1e2821;cursor:pointer}
+    .project img{width:100%;height:100%;object-fit:cover;transition:.45s}.project:hover img{transform:scale(1.05)}
+    .project:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 38%,rgba(4,7,5,.9) 100%)}
+    .project-copy{position:absolute;z-index:2;left:24px;right:24px;bottom:24px}.project-copy small{color:#b7c3ba}.project-copy h3{font-size:25px;line-height:1.1;margin:7px 0}.project-meta{font-size:12px;color:#c9d1cb}
+    .project-tag{display:inline-flex;padding:7px 10px;border-radius:999px;background:var(--green);font-size:11px;font-weight:900;color:white}
+
+    .why{background:var(--surface)}
+    .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .why-card{padding:28px;border-radius:20px;background:var(--surface-2);border:1px solid var(--line)}
+    .why-card b{font-size:44px;display:block;color:var(--green);letter-spacing:-.05em}.why-card h3{margin:8px 0 6px}.why-card p{font-size:14px;color:var(--muted);margin:0}
+
+    .clients{overflow:hidden}
+    .client-row{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+    .client{min-height:92px;display:grid;place-items:center;text-align:center;padding:15px;background:var(--surface);border:1px solid var(--line);border-radius:16px;font-weight:900;letter-spacing:.03em;color:var(--muted)}
+
+    .contact{background:linear-gradient(135deg,var(--surface),var(--surface-2))}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px}
+    .contact-card,.map-card{background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:34px;box-shadow:0 15px 45px rgba(20,35,25,.06)}
+    .contact-card h2{font-size:44px;line-height:1.03;margin:10px 0 18px}
+    .contact-lines{display:grid;gap:14px;margin:28px 0}
+    .contact-line{display:flex;gap:13px;align-items:flex-start}.dot{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--surface-2);color:var(--green);font-weight:900;flex:0 0 auto}.contact-line strong{display:block}.contact-line span,.contact-line a{color:var(--muted);font-size:14px}
+    .map-card{position:relative;overflow:hidden;min-height:520px;background:radial-gradient(circle at 20% 15%,rgba(102,184,46,.22),transparent 26%),linear-gradient(135deg,var(--surface-2),var(--surface))}
+    .map-lines{position:absolute;inset:0;opacity:.55;background-image:linear-gradient(30deg,transparent 47%,var(--line) 48%,var(--line) 50%,transparent 51%),linear-gradient(-40deg,transparent 48%,var(--line) 49%,var(--line) 51%,transparent 52%);background-size:130px 90px}
+    .pin{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:92px;height:92px;border-radius:50% 50% 50% 0;rotate:-45deg;background:var(--green);box-shadow:0 18px 50px rgba(102,184,46,.35)}
+    .pin:after{content:"";position:absolute;width:30px;height:30px;border-radius:50%;background:white;left:31px;top:31px}
+    .map-content{position:absolute;left:30px;right:30px;bottom:30px;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(14px);border:1px solid var(--line);padding:22px;border-radius:20px}.map-content h3{margin:0 0 7px}.map-content p{color:var(--muted);margin:0 0 14px}
+
+    .footer{background:#070b08;color:#d7ded8;padding:42px 0 26px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px}.footer img{width:200px;filter:drop-shadow(0 3px 15px rgba(0,0,0,.2))}.footer p,.footer a{color:#9eaba1;font-size:13px}.footer h4{margin:0 0 12px}.copy{border-top:1px solid #202721;margin-top:28px;padding-top:18px;color:#839087;font-size:12px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+
+    .wa-float{position:fixed;z-index:35;right:22px;bottom:22px;width:62px;height:62px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:white;font-weight:900;font-size:26px;box-shadow:0 12px 32px rgba(0,0,0,.25);border:3px solid white}
+    .modal{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.58);display:none;place-items:center;padding:18px}.modal.open{display:grid}.modal-box{width:min(760px,100%);max-height:92vh;overflow:auto;background:var(--surface);border-radius:28px;border:1px solid var(--line);box-shadow:0 30px 100px rgba(0,0,0,.38)}
+    .modal-head{display:flex;justify-content:space-between;align-items:center;padding:22px 24px;border-bottom:1px solid var(--line)}.modal-head h3{margin:0}.close{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--surface-2);color:var(--text);cursor:pointer}
+    .form{padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:15px}.field label{display:block;font-size:12px;font-weight:900;margin-bottom:6px}.field input,.field select,.field textarea{width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--text);outline:none}.field.full{grid-column:1/-1}.field textarea{min-height:110px;resize:vertical}.form-actions{grid-column:1/-1;display:flex;justify-content:flex-end;gap:10px;margin-top:5px}
+    .gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px;padding:0 24px 24px}.gallery img{width:100%;height:250px;object-fit:cover;border-radius:14px}.gallery img:first-child{height:508px;grid-row:span 2}.project-info{padding:24px}.project-info h3{font-size:32px;margin:0 0 8px}.project-info p{color:var(--muted)}
+    .note{font-size:12px;color:var(--muted);margin-top:10px}
+
+    /* Producción final: marca, WhatsApp, imágenes y clientes */
+    .brand{display:flex;align-items:center;min-width:190px}
+    .brand img{width:190px;height:auto;max-height:64px;object-fit:contain;object-position:left center}
+    .footer .footer-brand{display:inline-flex;background:#fff;border-radius:16px;padding:10px 14px;margin-bottom:8px}
+    .footer .footer-brand img{width:210px;height:auto;max-height:88px;object-fit:contain;filter:none}
+    .wa-icon{width:20px;height:20px;display:inline-block;flex:0 0 auto;fill:currentColor}
+    .wa-float .wa-icon{width:31px;height:31px}
+    .wa-float{font-size:0;transition:transform .2s ease,box-shadow .2s ease}
+    .wa-float:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 18px 38px rgba(37,211,102,.35)}
+    .contact-line .dot.wa-dot{background:#25d366;color:#fff}
+    .client-row{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+    .client{min-height:138px;padding:22px 18px;display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 24px rgba(24,38,28,.04);transition:.2s ease}
+    .client:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--green) 45%,var(--line))}
+    .client img{width:92%;height:84px;max-width:250px;object-fit:contain;opacity:1;transition:.2s}
+    .client:hover img{opacity:1;transform:scale(1.02)}
+    .client span{display:none}
+    body.dark .client{background:#fff;border-color:#dfe5e0} body.dark .client img{filter:none;opacity:1;border-radius:8px}
+    body.dark .client:hover img{filter:none;opacity:1}
+    .hero-cta .btn svg,.contact-card .btn svg{width:19px;height:19px}
+    @media(max-width:680px){.brand{min-width:145px}.brand img{width:145px;height:auto;max-height:54px}.client-row{grid-template-columns:1fr 1fr}.client{min-height:112px;padding:16px 12px}.client img{height:66px;max-width:190px}}
+
+    @media(max-width:1020px){.links{display:none}.mobile-menu{display:inline-flex}.service-grid{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.projects-grid{grid-template-columns:1fr 1fr}.why-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr}.client-row{grid-template-columns:repeat(3,1fr)}.hero-facts{grid-template-columns:1fr 1fr;gap:22px}.footer-grid{grid-template-columns:1fr 1fr}.about-media{min-height:520px}}
+    @media(max-width:680px){.topbar{display:none}.nav{height:72px}.brand img{width:145px;height:auto;max-height:54px}.nav-actions .btn{display:none}.hero{min-height:680px}.hero .container{padding:70px 0}.hero h1{font-size:52px}.hero p{font-size:16px}.hero-facts{grid-template-columns:1fr 1fr;margin-top:42px}.fact strong{font-size:18px}section{padding:72px 0}.section-head{display:block}.section-head p{margin-top:16px}.service-grid,.projects-grid,.why-grid{grid-template-columns:1fr}.project{height:400px}.about-media .main{width:100%;height:420px}.about-media .float{width:55%;height:210px}.value-list{grid-template-columns:1fr}.client-row{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr}.form{grid-template-columns:1fr}.field.full,.form-actions{grid-column:1}.gallery{grid-template-columns:1fr 1fr}.gallery img,.gallery img:first-child{height:220px;grid-row:auto}.gallery img:first-child{grid-column:1/-1}.contact-card,.map-card{padding:24px}.contact-card h2{font-size:38px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>HER-SA Servicios Industriales · COMAPRO SERVIND</span><span>Querétaro y alrededores · Lun–Vie 8:00 a 17:00</span></div></div>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="HER-SA Inicio"><img src="assets/img/logo-her-sa.png" alt="HER-SA Servicios Industriales"></a>
+      <nav class="links"><a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#nosotros">Nosotros</a><a href="#proyectos">Proyectos</a><a href="#clientes">Clientes</a><a href="#contacto">Contacto</a></nav>
+      <div class="nav-actions"><button class="theme" id="themeBtn" aria-label="Cambiar tema">◐</button><button class="btn btn-green" onclick="openQuote()">Cotizar ahora</button><button class="theme mobile-menu" id="mobileMenuBtn" aria-label="Abrir menú" onclick="toggleMobileNav()"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></button></div>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil">
+    <a href="#inicio" onclick="closeMobileNav()">Inicio <span>→</span></a>
+    <a href="#servicios" onclick="closeMobileNav()">Servicios <span>→</span></a>
+    <a href="#nosotros" onclick="closeMobileNav()">Nosotros <span>→</span></a>
+    <a href="#proyectos" onclick="closeMobileNav()">Proyectos <span>→</span></a>
+    <a href="#clientes" onclick="closeMobileNav()">Clientes <span>→</span></a>
+    <a href="#contacto" onclick="closeMobileNav()">Contacto <span>→</span></a>
+    <button class="mobile-quote" onclick="closeMobileNav();openQuote()">Solicitar cotización</button>
+  </nav>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="eyebrow">6 años creando soluciones</div>
+        <h1>Mantenimiento y obra que mantienen <span>tu operación en movimiento.</span></h1>
+        <p>HER-SA comercializa proyectos, productos y servicios de mantenimiento y obra nueva, enfocados a obra civil y detalles arquitectónicos en Querétaro y alrededores.</p>
+        <div class="hero-cta"><a class="btn btn-green" href="https://wa.me/524426789470?text=Hola%20HER-SA%2C%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener"><svg class="wa-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994.001C3.627.001.068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93a7.898 7.898 0 0 0-2.327-5.607zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.25a6.56 6.56 0 0 1-1.007-3.505c0-3.63 2.957-6.587 6.591-6.587a6.565 6.565 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.594-6.592 6.594zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.514.646-.63.775-.116.133-.232.15-.43.05a5.333 5.333 0 0 1-1.593-.982 5.99 5.99 0 0 1-1.1-1.373c-.116-.198-.012-.304.087-.402.09-.088.197-.232.296-.348.099-.116.132-.198.197-.33.066-.133.033-.25-.016-.348-.05-.099-.445-1.075-.61-1.47-.161-.389-.325-.336-.445-.343-.116-.006-.25-.006-.381-.006a.733.733 0 0 0-.53.25c-.182.197-.691.675-.691 1.646 0 .97.708 1.91.807 2.043.099.132 1.394 2.13 3.38 2.986.471.204.839.326 1.124.418.472.15.901.129 1.24.078.378-.057 1.17-.479 1.335-.942.165-.462.165-.858.116-.941-.049-.084-.182-.133-.38-.232z"/></svg><span>WhatsApp</span></a><button class="btn btn-outline" onclick="openQuote()">Solicitar cotización</button><a class="btn btn-outline" href="tel:+524422228861">Llamar 442 222 8861</a></div>
+        <div class="hero-facts"><div class="fact"><strong>6 años</strong><span>de operación</span></div><div class="fact"><strong>Querétaro</strong><span>y alrededores</span></div><div class="fact"><strong>Trato directo</strong><span>y personal con el cliente</span></div><div class="fact"><strong>Garantía</strong><span>extendida sobre servicios</span></div></div>
+      </div>
+    </section>
+
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">Nuestros servicios</div><h2>Soluciones integrales para mantenimiento, construcción y adecuaciones.</h2></div><p>Soluciones claras y especializadas para mantener, construir y mejorar espacios industriales y comerciales.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-img"><img src="assets/img/service-civil.jpg" alt="Obra civil HER-SA"><span class="service-num">01</span></div><div class="service-copy"><h3>Obra civil</h3><p>Ejecución de trabajos desde cero y adecuaciones para espacios industriales y comerciales.</p><ul><li>Remodelación de pisos</li><li>Firmes de concreto</li><li>Muros</li><li>Losas</li><li>Obra nueva y remodelación</li></ul></div></article>
+          <article class="service-card"><div class="service-img"><img src="assets/img/service-maintenance.jpg" alt="Mantenimiento industrial HER-SA"><span class="service-num">02</span></div><div class="service-copy"><h3>Mantenimiento preventivo y correctivo</h3><p>Atención para instalaciones y servicios que requieren continuidad, conservación y respuesta.</p><ul><li>Instalaciones hidrosanitarias</li><li>Rampas mecánicas y cortinas seccionales</li><li>Limpieza de trampas de grasa</li><li>Desazolve y sondeos sanitarios</li><li>Limpieza interior / exterior</li><li>Jardinería y rehabilitación de riego</li></ul></div></article>
+          <article class="service-card"><div class="service-img"><img src="assets/img/service-finishes.jpg" alt="Acabados HER-SA"><span class="service-num">03</span></div><div class="service-copy"><h3>Acabados</h3><p>Soluciones para terminación, adecuación y presentación de espacios.</p><ul><li>Cancelería y cristales</li><li>Tablaroca y durock</li><li>Pintura</li><li>Loseta cerámica y laminada</li><li>Aplicación de epóxicos</li><li>Marcaje de líneas peatonales / producción</li></ul></div></article>
+          <article class="service-card"><div class="service-img"><img src="assets/img/service-products.jpg" alt="Productos y suministros industriales"><span class="service-num">04</span></div><div class="service-copy"><h3>Comercialización de productos</h3><p>Suministros para mantenimiento, obra y operación.</p><ul><li>Herramientas</li><li>Tuberías, mangueras y conexiones</li><li>Material eléctrico</li><li>Tornillería y elementos de sujeción</li><li>Pinturas y esmaltes</li></ul></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="container split">
+        <div class="about-media"><img class="main" src="assets/img/service-tablaroca.jpg" alt="Proceso de trabajo HER-SA"><img class="float" src="assets/img/service-cleaning.jpg" alt="Equipo HER-SA en servicio"></div>
+        <div class="about-copy"><div class="eyebrow">Nosotros</div><h2>Una empresa joven e innovadora, enfocada en resolver.</h2><p>HER-SA Servicios Industriales trabaja en la comercialización de proyectos, productos y servicios de mantenimiento y obra nueva, con enfoque en obra civil y detalles arquitectónicos.</p><p>Su propuesta de valor se centra en una relación calidad–costo competitiva, trato directo y personal, así como extensión de garantía sobre los servicios realizados.</p><div class="value-list"><div class="value"><strong>Calidad + costo</strong><span>La mejor alternativa calidad costo dentro del mercado.</span></div><div class="value"><strong>Trato directo</strong><span>Atención personal con el cliente.</span></div><div class="value"><strong>Empresa joven</strong><span>Enfoque innovador para cada necesidad.</span></div><div class="value"><strong>Extensión de garantía</strong><span>Respaldo sobre los servicios realizados.</span></div></div><button class="btn btn-green" onclick="openQuote()">Hablemos de tu proyecto</button></div>
+      </div>
+    </section>
+
+    <section class="projects" id="proyectos">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">Proyectos realizados</div><h2>Procesos y resultados reales de HER-SA.</h2></div><p>Una selección de trabajos realizados que muestra procesos, ejecución y resultados finales.</p></div>
+        <div class="projects-grid">
+          <article class="project" onclick="openProject('bath')"><img src="assets/img/project-bath-final.jpg" alt="Remodelación de baños IRIZAR MX"><div class="project-copy"><span class="project-tag">2023</span><h3>Remodelación de baños</h3><small>IRIZAR MX · Parque Industrial Bernardo Quintana</small><div class="project-meta">Diseño y obra civil · Ver proyecto →</div></div></article>
+          <article class="project" onclick="openProject('roof')"><img src="assets/img/project-roof-final.jpg" alt="Cambio de láminas en techumbre IRIZAR MX"><div class="project-copy"><span class="project-tag">2026</span><h3>Cambio de láminas en techumbre</h3><small>IRIZAR MX · Parque Industrial Bernardo Quintana</small><div class="project-meta">Suministros y obra civil · Ver proyecto →</div></div></article>
+          <article class="project" onclick="openProject('mr40')"><img src="assets/img/project-mr40-process.jpg" alt="Concreto MR40 tiro directo IRIZAR MX"><div class="project-copy"><span class="project-tag">2022–2023</span><h3>Concreto MR40 tiro directo</h3><small>IRIZAR MX · Parque Industrial Bernardo Quintana</small><div class="project-meta">Obra civil · Ver proyecto →</div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="container"><div class="section-head"><div><div class="eyebrow">Por qué HER-SA</div><h2>Un aliado para mantenimiento, obra y suministro.</h2></div></div><div class="why-grid"><div class="why-card"><b>01</b><h3>Experiencia</h3><p>6 años operando y atendiendo proyectos en Querétaro y alrededores.</p></div><div class="why-card"><b>02</b><h3>Soluciones integrales</h3><p>Mantenimiento, obra civil, acabados y comercialización de productos.</p></div><div class="why-card"><b>03</b><h3>Atención directa</h3><p>Trato personal para conocer la necesidad y mantener comunicación durante el servicio.</p></div><div class="why-card"><b>04</b><h3>Resultados visibles</h3><p>Procesos de trabajo y resultados finales como parte central de la presencia web.</p></div></div></div>
+    </section>
+
+    <section class="clients" id="clientes"><div class="container"><div class="section-head"><div><div class="eyebrow">Clientes</div><h2>Empresas con las que HER-SA ha trabajado.</h2></div><p>La confianza de empresas líderes respalda nuestra experiencia y capacidad de respuesta.</p></div><div class="client-row">
+  <div class="client"><img loading="lazy" src="assets/img/clients/diana-pet-food.png" alt="Diana Pet Food"></div>
+  <div class="client"><img loading="lazy" src="assets/img/clients/dmg-mori.png" alt="DMG MORI"></div>
+  <div class="client"><img loading="lazy" src="assets/img/clients/eaton.png" alt="Eaton"></div>
+  <div class="client"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/a/af/IRIZAR_Logo_w_text.svg" onerror="this.onerror=null;this.src='assets/img/clients/irizar-fallback.svg'" alt="Irizar"></div>
+  <div class="client"><img loading="lazy" src="assets/img/clients/flex-n-gate.png" alt="Flex-N-Gate"></div>
+  <div class="client"><img loading="lazy" src="assets/img/clients/vem-tooling.png" alt="VEM Tooling"></div>
+  <div class="client"><img loading="lazy" src="assets/img/clients/magna.png" alt="Magna"></div>
+  <div class="client"><img loading="lazy" src="assets/img/clients/ronal-group.png" alt="RONAL GROUP"></div>
+</div></div></section>
+
+    <section class="contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-card"><div class="eyebrow">Contacto</div><h2>Conócenos y cotiza tu siguiente proyecto.</h2><p style="color:var(--muted)">Atención directa para servicios industriales, mantenimiento y obra en Querétaro.</p><div class="contact-lines"><div class="contact-line"><div class="dot">T</div><div><strong>Teléfono</strong><a href="tel:+524422228861">442 222 8861</a></div></div><div class="contact-line"><div class="dot wa-dot"><svg class="wa-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994.001C3.627.001.068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93a7.898 7.898 0 0 0-2.327-5.607zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.25a6.56 6.56 0 0 1-1.007-3.505c0-3.63 2.957-6.587 6.591-6.587a6.565 6.565 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.594-6.592 6.594zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.514.646-.63.775-.116.133-.232.15-.43.05a5.333 5.333 0 0 1-1.593-.982 5.99 5.99 0 0 1-1.1-1.373c-.116-.198-.012-.304.087-.402.09-.088.197-.232.296-.348.099-.116.132-.198.197-.33.066-.133.033-.25-.016-.348-.05-.099-.445-1.075-.61-1.47-.161-.389-.325-.336-.445-.343-.116-.006-.25-.006-.381-.006a.733.733 0 0 0-.53.25c-.182.197-.691.675-.691 1.646 0 .97.708 1.91.807 2.043.099.132 1.394 2.13 3.38 2.986.471.204.839.326 1.124.418.472.15.901.129 1.24.078.378-.057 1.17-.479 1.335-.942.165-.462.165-.858.116-.941-.049-.084-.182-.133-.38-.232z"/></svg></div><div><strong>WhatsApp</strong><a target="_blank" rel="noopener" href="https://wa.me/524426789470">442 678 9470</a><span> · 442 458 5486 · 442 494 7776</span></div></div><div class="contact-line"><div class="dot">@</div><div><strong>Correo</strong><a href="mailto:proyectos@her-sa.net">proyectos@her-sa.net</a><span> · administracion@her-sa.net</span></div></div><div class="contact-line"><div class="dot">⌂</div><div><strong>Dirección</strong><span>Tintoretto 219, Col. Campestre Italiana, Querétaro.</span></div></div><div class="contact-line"><div class="dot">◷</div><div><strong>Horario</strong><span>Lunes a viernes · 8:00 a 17:00</span></div></div></div><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-green" href="https://wa.me/524426789470?text=Hola%20HER-SA%2C%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener"><svg class="wa-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994.001C3.627.001.068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93a7.898 7.898 0 0 0-2.327-5.607zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.25a6.56 6.56 0 0 1-1.007-3.505c0-3.63 2.957-6.587 6.591-6.587a6.565 6.565 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.594-6.592 6.594zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.514.646-.63.775-.116.133-.232.15-.43.05a5.333 5.333 0 0 1-1.593-.982 5.99 5.99 0 0 1-1.1-1.373c-.116-.198-.012-.304.087-.402.09-.088.197-.232.296-.348.099-.116.132-.198.197-.33.066-.133.033-.25-.016-.348-.05-.099-.445-1.075-.61-1.47-.161-.389-.325-.336-.445-.343-.116-.006-.25-.006-.381-.006a.733.733 0 0 0-.53.25c-.182.197-.691.675-.691 1.646 0 .97.708 1.91.807 2.043.099.132 1.394 2.13 3.38 2.986.471.204.839.326 1.124.418.472.15.901.129 1.24.078.378-.057 1.17-.479 1.335-.942.165-.462.165-.858.116-.941-.049-.084-.182-.133-.38-.232z"/></svg><span>Enviar WhatsApp</span></a><button class="btn btn-outline" onclick="openQuote()">Cotizador rápido</button></div></div>
+        <div class="map-card"><div class="map-lines"></div><div class="pin"></div><div class="map-content"><h3>HER-SA · Querétaro</h3><p>Tintoretto 219, Col. Campestre Italiana. Atención en Querétaro y alrededores.</p><a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=Tintoretto+219+Campestre+Italiana+Queretaro" target="_blank" rel="noopener">Abrir ubicación</a></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-grid"><div><span class="footer-brand"><img src="assets/img/logo-her-sa.png" alt="HER-SA Servicios Industriales"></span><p>COMAPRO SERVIND · HER-SA Servicios Industriales. Comercialización de proyectos, productos y servicios de mantenimiento y obra nueva.</p></div><div><h4>Servicios</h4><p><a href="#servicios">Mantenimiento</a><br><a href="#servicios">Obra civil</a><br><a href="#servicios">Acabados</a><br><a href="#servicios">Comercialización de productos</a></p></div><div><h4>Contacto</h4><p>442 222 8861<br>proyectos@her-sa.net<br>Querétaro y alrededores</p></div></div><div class="copy"><span>© <span id="year"></span> HER-SA Servicios Industriales.</span><span>Todos los derechos reservados.</span></div></div></footer>
+
+  <a class="wa-float" aria-label="WhatsApp HER-SA" href="https://wa.me/524426789470?text=Hola%20HER-SA%2C%20quiero%20información%20sobre%20sus%20servicios." target="_blank" rel="noopener"><svg class="wa-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994.001C3.627.001.068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93a7.898 7.898 0 0 0-2.327-5.607zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.25a6.56 6.56 0 0 1-1.007-3.505c0-3.63 2.957-6.587 6.591-6.587a6.565 6.565 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.594-6.592 6.594zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.514.646-.63.775-.116.133-.232.15-.43.05a5.333 5.333 0 0 1-1.593-.982 5.99 5.99 0 0 1-1.1-1.373c-.116-.198-.012-.304.087-.402.09-.088.197-.232.296-.348.099-.116.132-.198.197-.33.066-.133.033-.25-.016-.348-.05-.099-.445-1.075-.61-1.47-.161-.389-.325-.336-.445-.343-.116-.006-.25-.006-.381-.006a.733.733 0 0 0-.53.25c-.182.197-.691.675-.691 1.646 0 .97.708 1.91.807 2.043.099.132 1.394 2.13 3.38 2.986.471.204.839.326 1.124.418.472.15.901.129 1.24.078.378-.057 1.17-.479 1.335-.942.165-.462.165-.858.116-.941-.049-.084-.182-.133-.38-.232z"/></svg></a>
+
+  <div class="modal" id="quoteModal" onclick="modalBackdrop(event,'quoteModal')"><div class="modal-box"><div class="modal-head"><h3>Cotización rápida por WhatsApp</h3><button class="close" onclick="closeModal('quoteModal')">✕</button></div><div class="form"><div class="field"><label>Nombre</label><input id="qName" placeholder="Tu nombre"></div><div class="field"><label>Empresa</label><input id="qCompany" placeholder="Empresa"></div><div class="field"><label>Teléfono</label><input id="qPhone" placeholder="442..."></div><div class="field"><label>Correo</label><input id="qEmail" type="email" placeholder="correo@empresa.com"></div><div class="field full"><label>Servicio de interés</label><select id="qService"><option>Mantenimiento preventivo y correctivo</option><option>Obra civil</option><option>Acabados</option><option>Comercialización de productos</option><option>Otro / varios servicios</option></select></div><div class="field full"><label>Descripción</label><textarea id="qDesc" placeholder="Cuéntanos brevemente qué necesitas"></textarea></div><div class="form-actions"><button class="btn btn-outline" onclick="closeModal('quoteModal')">Cerrar</button><button class="btn btn-green" onclick="sendQuote()"><svg class="wa-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994.001C3.627.001.068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93a7.898 7.898 0 0 0-2.327-5.607zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.25a6.56 6.56 0 0 1-1.007-3.505c0-3.63 2.957-6.587 6.591-6.587a6.565 6.565 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.594-6.592 6.594zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.514.646-.63.775-.116.133-.232.15-.43.05a5.333 5.333 0 0 1-1.593-.982 5.99 5.99 0 0 1-1.1-1.373c-.116-.198-.012-.304.087-.402.09-.088.197-.232.296-.348.099-.116.132-.198.197-.33.066-.133.033-.25-.016-.348-.05-.099-.445-1.075-.61-1.47-.161-.389-.325-.336-.445-.343-.116-.006-.25-.006-.381-.006a.733.733 0 0 0-.53.25c-.182.197-.691.675-.691 1.646 0 .97.708 1.91.807 2.043.099.132 1.394 2.13 3.38 2.986.471.204.839.326 1.124.418.472.15.901.129 1.24.078.378-.057 1.17-.479 1.335-.942.165-.462.165-.858.116-.941-.049-.084-.182-.133-.38-.232z"/></svg><span>Enviar por WhatsApp</span></button></div></div></div></div>
+
+  <div class="modal" id="projectModal" onclick="modalBackdrop(event,'projectModal')"><div class="modal-box" style="width:min(980px,100%)"><div class="modal-head"><h3>Proyecto HER-SA</h3><button class="close" onclick="closeModal('projectModal')">✕</button></div><div id="projectContent"></div></div></div>
+
+  <script>
+    const projectData={
+      bath:{title:'Remodelación de baños',client:'IRIZAR MX',location:'Parque Industrial Bernardo Quintana',year:'2023',work:'Diseño y obra civil.',result:'Rehabilitación sanitaria, obra civil, retiro y sustitución de muebles sanitarios, acabados en loseta cerámica, mamparas de herrería e instalación de muebles de acero inoxidable.',imgs:['assets/img/project-bath-final.jpg','assets/img/project-bath-process.jpg','assets/img/project-bath-detail.jpg']},
+      roof:{title:'Cambio de láminas en techumbre',client:'IRIZAR MX',location:'Parque Industrial Bernardo Quintana',year:'2026',work:'Suministros y obra civil.',result:'Rehabilitación en techumbre para evitar filtraciones y goteras.',imgs:['assets/img/project-roof-final.jpg','assets/img/project-roof-detail.jpg','assets/img/project-roof-process.jpg']},
+      mr40:{title:'Concreto MR40 tiro directo',client:'IRIZAR MX',location:'Parque Industrial Bernardo Quintana',year:'2022, 2023',work:'Obra civil: demolición, afine, nivelación, armado y colado en sitio, acabado pulido con corte seccional y sellado con cola de rata.',result:'Ampliación de líneas de producción.',imgs:['assets/img/project-mr40-process.jpg','assets/img/project-mr40-pour.jpg','assets/img/project-mr40-final.jpg']}
+    };
+    document.getElementById('year').textContent=new Date().getFullYear();
+    const themeBtn=document.getElementById('themeBtn');
+    themeBtn.onclick=()=>{document.body.classList.toggle('dark');localStorage.setItem('hersa-theme',document.body.classList.contains('dark')?'dark':'light')};
+    if(localStorage.getItem('hersa-theme')==='dark')document.body.classList.add('dark');
+    function toggleMobileNav(){document.getElementById('mobileNav').classList.toggle('open')}
+    function closeMobileNav(){document.getElementById('mobileNav').classList.remove('open')}
+    document.addEventListener('click',e=>{const nav=document.getElementById('mobileNav');const btn=document.getElementById('mobileMenuBtn');if(nav?.classList.contains('open')&&!nav.contains(e.target)&&!btn?.contains(e.target))closeMobileNav()});
+    function openQuote(){closeMobileNav();document.getElementById('quoteModal').classList.add('open');document.body.style.overflow='hidden'}
+    function closeModal(id){document.getElementById(id).classList.remove('open');document.body.style.overflow=''}
+    function modalBackdrop(e,id){if(e.target.id===id)closeModal(id)}
+    function sendQuote(){const v=id=>document.getElementById(id).value.trim();const msg=`Hola HER-SA, quiero solicitar una cotización.\n\nNombre: ${v('qName')||'-'}\nEmpresa: ${v('qCompany')||'-'}\nTeléfono: ${v('qPhone')||'-'}\nCorreo: ${v('qEmail')||'-'}\nServicio: ${v('qService')}\nNecesidad: ${v('qDesc')||'-'}`;window.open('https://wa.me/524426789470?text='+encodeURIComponent(msg),'_blank')}
+    function openProject(key){const p=projectData[key];document.getElementById('projectContent').innerHTML=`<div class="project-info"><div class="eyebrow">${p.client}</div><h3>${p.title}</h3><p><strong>Ubicación:</strong> ${p.location}<br><strong>Año:</strong> ${p.year}<br><strong>Trabajo:</strong> ${p.work}<br><strong>Resultado:</strong> ${p.result}</p></div><div class="gallery">${p.imgs.map((x,i)=>`<img src="${x}" alt="${p.title} ${i+1}">`).join('')}</div>`;document.getElementById('projectModal').classList.add('open');document.body.style.overflow='hidden'}
+    window.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal('quoteModal');closeModal('projectModal')}})
+  </script>
+</body>
+</html>
