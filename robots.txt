@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://her-sa.net/sitemap.xml
